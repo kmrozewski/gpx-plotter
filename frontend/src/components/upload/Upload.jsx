@@ -1,3 +1,4 @@
+//based on https://dev.to/alecgrey/controlled-forms-with-front-and-backend-validations-using-react-bootstrap-5a2
 import React, { useState } from 'react'
 import { Form, Button } from 'react-bootstrap'
 import { isExtension, isFilesCount, isEachFileSize, isTotalSize } from './FileValidator.js'
