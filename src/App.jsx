@@ -27,6 +27,9 @@ export default function App() {
           <Route path="/upload">
             <Upload />
           </Route>
+          <Route path="/topsecret">
+            <Home name="Essa byku" />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
